@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* designing header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+
+}
+
+.container {
+    height: 400px;
+    background-color: rgb(98, 97, 97);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* link decoration */
+.container header nav a {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.container header img {
+    display: block;
+    height: 40px;
+    margin-right: 2px;
+}
+
+.container header div {
+    display: flex;
+    align-items: center;
+}
+
+/* Center Text of the page */
+
+.container p {
+    font-size: 50px;
+    padding: 5px;
+    margin: 40px;
+}
+
+/* footer */
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.footer div button {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+
+}
+
+/* hover effect */
+.container header nav a:hover {
+    color: rgb(138, 138, 209);
+    text-decoration: underline;
+
+}
+
+.footer div button:hover {
+    background-color: aqua;
+    color: gray;
+    padding: 10px;
+}
+
+@keyframes fadeinout {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.container p strong {
+    animation: fadeinout 2s infinite;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        background-color: green;
+        height: 500px;
+    }
+
+    .footer div button {
+        display: flex;
+        justify-content: left;
+        margin: 1px;
+    }
+}

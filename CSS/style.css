@@ -1,0 +1,36 @@
+/* Task # 2 */
+
+li:nth-child(1) {
+    color: green;
+}
+
+li:nth-child(2) {
+    color: red;
+}
+
+li:nth-child(3) {
+    color: blue;
+}
+
+li:nth-child(4) {
+    color: rgb(165, 101, 136);
+}
+
+li:nth-child(5) {
+    color: rgb(36, 166, 202);
+}
+
+@keyframes fadeinout {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+h3 {
+    color: red;
+    animation: fadeinout 2s infinite;
+}
