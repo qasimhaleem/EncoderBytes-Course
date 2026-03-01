@@ -105,3 +105,8 @@ header {
         margin: 1px;
     }
 }
+
+.position {
+    position: absolute;
+    top: 450px;
+}
