@@ -8,3 +8,4 @@ function fun() {
 }
 const btn = document.getElementById('btn');
 btn.setAttribute('onclick', 'fun()')
+

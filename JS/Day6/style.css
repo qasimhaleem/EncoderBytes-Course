@@ -28,6 +28,7 @@ form{
     gap: 15px;
 }
 .input input {
+    color: darkslategray;
     padding: 20px;
     border: 1px solid gray;
     font-size: 20px;
@@ -35,8 +36,12 @@ form{
     border-radius: 10px;
 }
 button{
+    background-color: gray;
+    color: darkslategray;
     padding: 10px;
+    letter-spacing: 1px;
     font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
+    
 }

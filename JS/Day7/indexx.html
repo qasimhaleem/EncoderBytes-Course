@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Form | validation
+    </title>
+</head>
+<body>
+    <section class="flex flex-col  items-center justify-center  h-screen">
+        <div class="p-3 flex flex-col gap-2 justify-center items-center    rounded-lg w-4/12 shadow-xl" > 
+        <h1 class="font-bold text-3xl pb-3">Sign up</h1>
+        <form class="flex flex-col" id="myForm">
+            <input type="text" id="fname" name="first" class="px-9 py-2 mb-3 border-2 border-gray-500 text-xl color-white rounded-lg" placeholder="First name" class="first">
+            <input type="text" name="last" id="lname" placeholder="Last name" class="px-9 py-2 mb-3 border-2 border-gray-500 text-xl color-white rounded-lg">
+            <input type="email" id="email"name="email" placeholder="email" class="px-9 py-2 mb-3 border-2 border-gray-500 text-xl color-white rounded-lg">
+            <input type="date" name="date" id="date" placeholder="date" class="px-9 py-2 mb-3 border-2 border-gray-500 text-xl color-white rounded-lg">
+            <input type="number" name="phone" id="phone" placeholder="phone" class="px-9 py-2 mb-3 border-2 border-gray-500 text-xl color-white rounded-lg">
+            <input type="password" id="password" name="password" placeholder="password" class="px-9 py-2 mb-3 border-2 border-gray-500 text-xl color-white rounded-lg">
+            <input type="password" name="confirm" id="Cpassword" placeholder="Confirm password" class="px-9 py-2 mb-3 border-2 border-gray-500 text-xl color-white rounded-lg">
+            <p id="errorMsg"  class=" flex items-center justify-center pb-1" style="color: red" ></p>
+            <button class="bg-blue-500 text-white p-3 text-xl font-bold rounded-lg" type="submit" >Submit</button>
+        </form>
+        <p class="color-blue-800">Already have an accounts? <a href="#" class="underline color-blue-500">Log in</a></p>
+        </div>
+    </section>
+
+    <script src="source.js"></script>
+</body>
+</html>
